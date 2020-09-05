@@ -29,7 +29,7 @@
  <a href="#author">Author</a>
 </p>
 
-<img alt="My Money App Screenshott" src="./img/my-money-app-screenshot.jpeg">
+<img alt="My Money App Screenshott" src="img/my-money-app-screenshot.png">
 
 <h2 id='about'>💻 About <a href="#top">🔝</a></h2>
 This project was created for my pessoal React Redux studies.
