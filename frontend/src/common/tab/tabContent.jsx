@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 
 class tabContent extends Component {
@@ -15,5 +14,4 @@ class tabContent extends Component {
 }
 
 const mapStateToProps = state => ({tab: state.tab})
-// const mapDispatchToPros = dispatch => bindActionCreators({selectTab}, dispatch)
 export default connect(mapStateToProps)(tabContent)
