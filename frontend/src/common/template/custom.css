@@ -1,3 +1,11 @@
+button {
+    margin-left: 5px;
+}
+
+.table-actions {
+    width: 150px;
+}
+
 .main-footer > span {
     margin: 0px 10px;
 }
