@@ -13,3 +13,6 @@ button {
 span > a {
     margin: 0px 5px;
 }
+html, body {
+    height:100%;
+}
