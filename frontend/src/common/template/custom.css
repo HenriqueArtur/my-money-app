@@ -14,6 +14,12 @@ span > a {
     margin: 0px 5px;
 }
 
+.main-footer {
+    position: fixed;
+    bottom:0px;
+    width:100%;
+}
+
 html, body {
     height:100%;
 }
