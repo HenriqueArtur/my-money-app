@@ -10,8 +10,6 @@ import Summary from './summary'
 
 class BillingCycleForm extends Component {
     calculateSummary() {
-        console.log(this.props.credits)
-        console.log(this.props.debts)
         const sum = (t, v) => t + v
         return {
             sumOfCredits: this.props.credits.map(c => +c.value || 0).reduce(sum, 0),
@@ -24,7 +22,7 @@ class BillingCycleForm extends Component {
         const { sumOfCredits, sumOfDebts } = this.calculateSummary()
 
         return (
-            <form role="form" onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
                 <div className="box-body">
                     <Field name='name'
                            component={LabelAndInput}

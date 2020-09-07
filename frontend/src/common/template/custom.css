@@ -23,3 +23,7 @@ span > a {
 html, body {
     height:100%;
 }
+
+.menu-tree {
+    cursor: pointer;
+}
