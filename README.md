@@ -150,7 +150,7 @@ $ npm start
   <a href="https://www.linkedin.com/in/henriqueartur/">
     <img src="https://img.shields.io/badge/LinkedIn-flat?logo=LinkedIn&style=for-the-badge&logoColor=181433&labelColor=F12166&color=181433&logoWidth=30" />
   </a>&nbsp;&nbsp;
-  <a href="https://github.com/HenriqueArtur/">
+  <a href="https://t.me/HenriqueArtur">
     <img src="https://img.shields.io/badge/telegram-telegram?logo=telegram&style=for-the-badge&logoColor=181433&labelColor=F12166&color=181433&logoWidth=30" />
   </a>&nbsp;&nbsp;
 </p>
