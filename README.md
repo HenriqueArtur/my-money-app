@@ -1,6 +1,6 @@
 <h1 align="center" id='top'>💵 My Money App 💵</h1>
 
-<h4 align="center">🚧 In Progress 🚧</h4>
+<h4 align="center">✔ Complete ✔</h4>
 
 <p align="center">
   <a href="https://github.com/HenriqueArtur/">
@@ -22,12 +22,14 @@
 </p>
 
 <h2 id='about'>💻 About <a href="#top">🔝</a></h2>
-My Money App é uma aplicação REST utilizando as operações do CRUD que gerencicia ciclos de faturamentos e foi desenvolvida como atividade do curso de React da Cod3r. 
+My Money App is a REST application using CRUD operations that manages billing cycles and was developed as an activity in Cod3r's React course. 
 
 ---
 
 <h2 id='functions'>⚙️ Functions <a href="#top">🔝</a></h2>
 
+- Sign up
+- Sign in
 - Dashboad
     - Show total credits
     - Show total debts
@@ -42,34 +44,94 @@ My Money App é uma aplicação REST utilizando as operações do CRUD que geren
 ---
 
 <h2 id='images'>🌻 Images <a href="#top">🔝</a></h2>
-<img alt="My Money App Screenshott" src="img/my-money-app-screenshot.png">
 
+#### Login
+![login](img/login.png)
+#### Dashboar
+![dashboard](img/dashboard.png)
+#### List
+![list](img/billingcycle.png)
+#### Operations
+![operations](img/incluir.png)
 
 ---
 
 <h2 id='project'>🚀 How to run <a href="#top">🔝</a></h2>
+This project is divided into two parts:
 
+1. Backend
+2. Frontend
 
-### Requirements
+### ❗ Requirements
+Before you begin, you will need to have the following tools installed on your machine:  [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/). 
 
+Clone this repository: ```$ git clone https://github.com/HenriqueArtur/my-money-app.git```
 
 #### 🎲 Backend (server)
+```bash
+# Rename 'env_file' file to '.env' in backend/src
 
+# Set authentication key in 'authSecret' in .env
+# write whatever you want - e.g. 'ehu1u21)&*dfs'
+
+# Access backend folder on terminal
+$ cd backend
+
+# Install dependecies
+$ npm i
+
+# Run backend
+# dev
+$ npm run dev
+# OR
+# production
+$ npm run production
+
+# Backend start on port: 3003
+```
 
 #### 🧭 Frontend (Web)
+```bash
+# Access frontend folder on terminal
+$ cd frontend
 
+# Install dependecies
+$ npm i
+
+# Run front end
+$ npm start
+
+# Frontend start on port: 3000 - access http://localhost:3000 
+```
 
 ---
 
 <h2 id='technologies'>🛠 Technologies <a href="#top">🔝</a></h2>
-<div>
-  <img src="https://img.shields.io/badge/react-v15.4.2-flat?style=for-the-badge&logoColor=F12166&labelColor=181433&color=828494&logoWidth=30" />
-  <img src="https://img.shields.io/badge/React_Redux-v4.4.6-flat?style=for-the-badge&logoColor=F12166&labelColor=181433&color=828494&logoWidth=30" />
-  <img src="https://img.shields.io/badge/React_Router-v3.0.2-flat?style=for-the-badge&logoColor=F12166&labelColor=181433&color=828494&logoWidth=30" />
-  <img src="https://img.shields.io/badge/Axios-v0.15.3-flat?style=for-the-badge&logoColor=F12166&labelColor=181433&color=828494&logoWidth=30" />
-  <img src="https://img.shields.io/badge/Webpack-v1.14.0-flat?style=for-the-badge&logoColor=F12166&labelColor=181433&color=828494&logoWidth=30" />
-  <img src="https://img.shields.io/badge/AdminLTE-v2.3.6-flat?style=for-the-badge&logoColor=F12166&labelColor=181433&color=828494&logoWidth=30" />
-</div>
+
+### 🎲 Backend
+[![Brypt](https://img.shields.io/badge/bcrypt-flat?style=for-the-badge&color=181433)]()
+[![jsonwebtoken](https://img.shields.io/badge/jsonwebtoken-flat?style=for-the-badge&color=181433)]()
+[![express](https://img.shields.io/badge/express-flat?style=for-the-badge&color=181433)]()
+[![body-parser](https://img.shields.io/badge/body_parser-flat?style=for-the-badge&color=181433)]()
+[![lodash](https://img.shields.io/badge/lodash-flat?style=for-the-badge&color=181433)]()
+[![mongoose](https://img.shields.io/badge/mongoose-flat?style=for-the-badge&color=181433)]()
+[![node-restful](https://img.shields.io/badge/node_restful-flat?style=for-the-badge&color=181433)]()
+[![pm2](https://img.shields.io/badge/pm2-flat?style=for-the-badge&color=181433)]()
+
+### 🧭 Frontend 
+[![react](https://img.shields.io/badge/react-flat?style=for-the-badge&color=181433)]()
+[![admin_lte](https://img.shields.io/badge/admin_lte-flat?style=for-the-badge&color=181433)]()
+[![axios](https://img.shields.io/badge/axios-flat?style=for-the-badge&color=181433)]()
+[![font_awesome"](https://img.shields.io/badge/font_awesome"-flat?style=for-the-badge&color=181433)]()
+[![ionicons](https://img.shields.io/badge/ionicons-flat?style=for-the-badge&color=181433)]()
+[![jquery](https://img.shields.io/badge/jquery-flat?style=for-the-badge&color=181433)]()
+[![react_redux](https://img.shields.io/badge/react_redux-flat?style=for-the-badge&color=181433)]()
+[![react_redux_toastr](https://img.shields.io/badge/react_redux_toastr-flat?style=for-the-badge&color=181433)]()
+[![redux](https://img.shields.io/badge/redux-flat?style=for-the-badge&color=181433)]()
+[![redux_form](https://img.shields.io/badge/redux_form-flat?style=for-the-badge&color=181433)]()
+[![redux_multi](https://img.shields.io/badge/redux_multi-flat?style=for-the-badge&color=181433)]()
+[![redux_promise](https://img.shields.io/badge/redux_promise-flat?style=for-the-badge&color=181433)]()
+[![redux_thunk](https://img.shields.io/badge/redux_thunk-flat?style=for-the-badge&color=181433)]()
 
 ---
 
@@ -89,6 +151,6 @@ My Money App é uma aplicação REST utilizando as operações do CRUD que geren
     <img src="https://img.shields.io/badge/LinkedIn-flat?logo=LinkedIn&style=for-the-badge&logoColor=181433&labelColor=F12166&color=181433&logoWidth=30" />
   </a>&nbsp;&nbsp;
   <a href="https://github.com/HenriqueArtur/">
-    <img src="https://img.shields.io/badge/GitHub-flat?logo=GitHub&style=for-the-badge&logoColor=181433&labelColor=F12166&color=181433&logoWidth=30" />
+    <img src="https://img.shields.io/badge/telegram-telegram?logo=telegram&style=for-the-badge&logoColor=181433&labelColor=F12166&color=181433&logoWidth=30" />
   </a>&nbsp;&nbsp;
 </p>
